@@ -13,7 +13,11 @@
 </head>
 <body>
 <% Student student=(Student) request.getAttribute("student");%>
-  <form action="/update.student" method="get">
+<%--
+请求方式：get、post
+
+--%>
+  <form action="/update.student" method="post">
      <table>
         <%-- <tr>
              <td>学生sno</td>

@@ -89,7 +89,7 @@ public class StudentServlt extends HttpServlet {
         if(i!=-1){
             /* System.out.println("添加成功");*/
             /*重定向*/
-            resp.sendRedirect("list.student");
+          /*  resp.sendRedirect("list.student");*/
         }else{
             System.out.println("失败");
         }

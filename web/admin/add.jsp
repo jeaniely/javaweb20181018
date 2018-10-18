@@ -11,7 +11,7 @@
     <title>添加</title>
 </head>
 <body>
-  <form action="/add.student" method="get">
+  <form action="/add.student" method="post">
      <table>
          <tr>
              <td>学生sno</td>
